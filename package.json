@@ -6,6 +6,8 @@
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
+    "start:websocket": "node ./websocket/index.js",
+    "eslint:init": "./node_modules/.bin/eslint --init",
     "eslint": "./node_modules/.bin/eslint \"./**/*.js\""
   },
   "author": "",
@@ -29,3 +31,4 @@
     "verbose": true
   }
 }
+
